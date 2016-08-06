@@ -1,6 +1,6 @@
 ## Smokebot UI
 
-This repo contains a really basic webpage that has some home rolled client jQuery for using the Particle Cloud and connecting to the Smokebot (check out Matt Hazley's Firmware repo, I'll link to this at the point at which it is complete). We'll have some pictures of the project at some point as well, once we have a functional smoker system for making the tasty meat treats!
+This repo contains a really basic webpage that has some home rolled client jQuery for using the Particle Cloud and connecting to the Smokebot (check out Matt Hazley's Firmware repo, [Smokebot firmware](https://github.com/mhazley/smoke-bot)). We'll have some pictures of the project at some point as well, once we have a functional smoker system for making the tasty meat treats!
 
 ### Usage
 

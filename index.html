@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="https://cdn.jsdelivr.net/sparkjs/1.0.0/spark.min.js"></script>
+        <script src="js/b64.js"></script>
+        <script src="js/index.js"></script>
+        <title>Robot Controls</title>
+    </head>
+    <body>
+    <div class="wrapper">
+        <div class="panel panel-default main-form">
+            <div class="panel-heading">
+                <h3>SmokeBot v0.01</h3>
+            </div>
+            <div class="panel-body">
+                <div id="left-div" class="col-md-3">
+                    <h4>Heaters</h4>
+                    <div>
+                        <h5><b>Main Heater</b></h5>
+                        <button type="button" class="btn btn-default" id="main-heater-on">On</button>
+                        <button type="button" class="btn btn-danger" id="main-heater-off">Off</button><br/>
+                    </div>
+
+                    <div class="text-output-area">
+                        <span>Target Temp:</span>
+                        <input type="text" class="form-control" id="target-temp-input">
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success" id="start-cook-btn">Let's Cook!</button>
+                        <button type="button" class="btn btn-danger" id="stop-cook-btn">No Cook!</button>
+                    </div>
+                </div>
+
+                <div id="right-div" class="col-md-3">
+                    <h4>Temperatures</h4>
+                    <div class="text-output-area">
+                        <span>Internal:</span>
+                        <input type="text" class="form-control" id="internal-temp-output">
+                    </div>
+
+                    <div class="text-output-area">
+                        <span>Meat 1:</span>
+                        <input type="text" class="form-control" id="meat1-temp-output">
+                    </div>
+                    
+                    <div class="text-output-area">
+                        <span>Meat 2:</span>
+                        <input type="text" class="form-control" id="meat2-temp-output">
+                    </div>
+
+                    <h4>Other</h4>
+                    <div class="text-output-area">
+                        <span>Signal Strength: </span>
+                        <input type="text" class="form-control" id="signal-strength-output">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
